@@ -7,7 +7,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setup(
     name='gpttsrt',
-    version='0.0.1',
+    version='0.0.2',
     description='Gpt powered subtitle translation tool.',
     long_description=long_description,
     long_description_content_type="text/markdown",

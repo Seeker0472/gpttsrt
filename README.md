@@ -6,6 +6,12 @@
 
 ## 使用方法说明
 
+### PYPI 安装(推荐)
+
+```bash
+pip install gpttsrt
+```
+
 ### 源码安装
     
 clone 本项目到本地
