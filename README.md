@@ -1,6 +1,7 @@
 # gpttsrt
 
-一个使用gpt3.5来批量翻译srt字幕文件的工具
+一个使用gpt3.5来批量翻译srt字幕文件的工具,用来批量翻译公开课字幕
+
 名字: gpt_translate_srt -> gpttsrt
 
 ## 使用方法说明
