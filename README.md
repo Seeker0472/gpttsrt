@@ -35,3 +35,9 @@ line_per_request = 10 # 每次请求翻译的行数, 默认为10
 ```bash
 gpttsrt -c --config gpttsrt.conf
 ```
+
+## TODO
+- [x] 多线程优化翻译速度
+- [x] 优化翻译结果,检测翻译结果是否异常
+- [ ] 优化翻译结果,使用gpt给长句断句
+- [ ] 优化翻译结果,使用使用whisper模型给断句后的句子标记时间

@@ -2,13 +2,18 @@
 
 from distutils.core import setup
 
+with open("README.md", "r", encoding='utf-8') as fh:
+    long_description = fh.read()
+
 setup(
     name='gpttsrt',
     version='0.0.1',
     description='Gpt powered subtitle translation tool.',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author='Seeker472',
     author_email='gmx472@qq.com',
-    url='https://seekerer.com',
+    url='https://github.com/Seeker0472/gpttsrt',
     packages=['gpttsrt'],
     entry_points={
         'console_scripts': [
