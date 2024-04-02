@@ -1,0 +1,14 @@
+
+**/__pycache__
+*.log
+*.conf
+
+/srt_in
+
+/srt_out
+/srt_completed
+
+/gpttsrt.egg-info
+
+/logs
+
